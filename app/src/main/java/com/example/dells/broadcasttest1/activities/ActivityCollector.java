@@ -24,6 +24,7 @@ public class ActivityCollector {
         for(Activity activity : activities){
             if(!activity.isFinishing()){
                 activity.finish();
+                //test
             }
         }
     }
